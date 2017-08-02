@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<Workspace>
+  <ConfigDictionary>
+    
+  <CurrentConfigs><Project>BMTH-C3001-S1.0/Debug</Project></CurrentConfigs></ConfigDictionary>
+  <Desktop>
+    <Static>
+      <Workspace>
+        <ColumnWidths>
+          
+          
+          
+          
+        <Column0>138</Column0><Column1>27</Column1><Column2>27</Column2><Column3>27</Column3></ColumnWidths>
+      </Workspace>
+      <Find-in-Files>
+        <PreferedWindows>
+          
+          
+          
+          
+        <Position>3</Position><ScreenPosX>0</ScreenPosX><ScreenPosY>0</ScreenPosY><Windows/></PreferedWindows>
+        
+        
+        
+      <ColumnWidth0>496</ColumnWidth0><ColumnWidth1>70</ColumnWidth1><ColumnWidth2>850</ColumnWidth2></Find-in-Files>
+      <Build>
+        
+        
+        
+        
+      <PreferedWindows><Position>3</Position><ScreenPosX>0</ScreenPosX><ScreenPosY>0</ScreenPosY><Windows/></PreferedWindows><ColumnWidth0>20</ColumnWidth0><ColumnWidth1>1035</ColumnWidth1><ColumnWidth2>276</ColumnWidth2><ColumnWidth3>69</ColumnWidth3></Build>
+    <TerminalIO/><Debug-Log><PreferedWindows><Position>3</Position><ScreenPosX>0</ScreenPosX><ScreenPosY>0</ScreenPosY><Windows><Window><Factory>Build</Factory></Window></Windows></PreferedWindows><ColumnWidth0>20</ColumnWidth0><ColumnWidth1>1381</ColumnWidth1></Debug-Log></Static>
+    <Windows>
+      
+      
+    <Wnd0>
+        <Tabs>
+          <Tab>
+            <Identity>TabID-8409-17484</Identity>
+            <TabName>Workspace</TabName>
+            <Factory>Workspace</Factory>
+            <Session>
+              
+            <NodeDict><ExpandedNode>BMTH-C3001-S1.0</ExpandedNode><ExpandedNode>BMTH-C3001-S1.0/CONTROL</ExpandedNode><ExpandedNode>BMTH-C3001-S1.0/HARDWARE</ExpandedNode><ExpandedNode>BMTH-C3001-S1.0/Interrupt</ExpandedNode></NodeDict></Session>
+          </Tab>
+        </Tabs>
+        
+      <SelectedTab>0</SelectedTab></Wnd0><Wnd1><Tabs><Tab><Identity>TabID-1029-16431</Identity><TabName>Find in Files</TabName><Factory>Find-in-Files</Factory><Session/></Tab></Tabs><SelectedTab>0</SelectedTab></Wnd1><Wnd2><Tabs><Tab><Identity>TabID-24449-17015</Identity><TabName>Build</TabName><Factory>Build</Factory><Session/></Tab></Tabs><SelectedTab>0</SelectedTab></Wnd2></Windows>
+    <Editor>
+      
+      
+      
+      
+    <Pane><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\Project\UserCode\main.c</Filename><XPos>0</XPos><YPos>43</YPos><SelStart>2289</SelStart><SelEnd>2289</SelEnd></Tab><ActiveTab>0</ActiveTab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\Project\Modules\key.c</Filename><XPos>0</XPos><YPos>30</YPos><SelStart>633</SelStart><SelEnd>633</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\Project\Modules\heatCtrl.c</Filename><XPos>0</XPos><YPos>24</YPos><SelStart>586</SelStart><SelEnd>586</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\Project\Modules\key.h</Filename><XPos>0</XPos><YPos>12</YPos><SelStart>518</SelStart><SelEnd>518</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\Project\Interrupt\stm8s_it.c</Filename><XPos>0</XPos><YPos>137</YPos><SelStart>4610</SelStart><SelEnd>4610</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\Project\Modules\heatCtrl.h</Filename><XPos>0</XPos><YPos>47</YPos><SelStart>1590</SelStart><SelEnd>1590</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\Project\Modules\eepromCtrl.c</Filename><XPos>0</XPos><YPos>16</YPos><SelStart>1328</SelStart><SelEnd>1328</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\Project\Hardware\EEPROM.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>716</SelStart><SelEnd>716</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\Project\Modules\display.c</Filename><XPos>0</XPos><YPos>425</YPos><SelStart>11078</SelStart><SelEnd>11078</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\Project\Modules\HDS3085.h</Filename><XPos>0</XPos><YPos>12</YPos><SelStart>636</SelStart><SelEnd>636</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\Project\Modules\HDS3085.c</Filename><XPos>0</XPos><YPos>3</YPos><SelStart>412</SelStart><SelEnd>412</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\Project\Modules\display.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>38</SelStart><SelEnd>38</SelEnd></Tab></Pane><ActivePane>0</ActivePane><Sizes><Pane><X>1000000</X><Y>1000000</Y></Pane></Sizes><SplitMode>1</SplitMode></Editor>
+    <Positions>
+      
+      
+      
+      
+      
+    <Top><Row0><Sizes><Toolbar-012ea338><key>iaridepm.enu1</key></Toolbar-012ea338></Sizes></Row0><Row1><Sizes/></Row1></Top><Left><Row0><Sizes><Wnd0><Rect><Top>-2</Top><Left>-2</Left><Bottom>383</Bottom><Right>229</Right><x>-2</x><y>-2</y><xscreen>426</xscreen><yscreen>205</yscreen><sizeHorzCX>295833</sizeHorzCX><sizeHorzCY>248786</sizeHorzCY><sizeVertCX>160417</sizeVertCX><sizeVertCY>467233</sizeVertCY></Rect></Wnd0></Sizes></Row0></Left><Right><Row0><Sizes/></Row0></Right><Bottom><Row0><Sizes><Wnd1><Rect><Top>-2</Top><Left>-2</Left><Bottom>198</Bottom><Right>1442</Right><x>-2</x><y>-2</y><xscreen>1444</xscreen><yscreen>200</yscreen><sizeHorzCX>1002778</sizeHorzCX><sizeHorzCY>242718</sizeHorzCY><sizeVertCX>138889</sizeVertCX><sizeVertCY>242718</sizeVertCY></Rect></Wnd1></Sizes></Row0><Row1><Sizes><Wnd2><Rect><Top>196</Top><Left>-2</Left><Bottom>396</Bottom><Right>1442</Right><x>-2</x><y>196</y><xscreen>1444</xscreen><yscreen>200</yscreen><sizeHorzCX>1002778</sizeHorzCX><sizeHorzCY>242718</sizeHorzCY><sizeVertCX>138889</sizeVertCX><sizeVertCY>242718</sizeVertCY></Rect></Wnd2></Sizes></Row1></Bottom><Float><Sizes/></Float></Positions>
+  </Desktop>
+</Workspace>
+
+

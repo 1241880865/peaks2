@@ -1,0 +1,32 @@
+[DebugChecksum]
+Checksum=-1830242588
+[DisAssemblyWindow]
+NumStates=_ 1
+State 1=_ 1
+[InstructionProfiling]
+Enabled=_ 0
+[CodeCoverage]
+Enabled=_ 0
+[StackPlugin]
+Enabled=1
+OverflowWarningsEnabled=1
+WarningThreshold=90
+SpWarningsEnabled=1
+WarnHow=0
+UseTrigger=1
+TriggerName=main
+LimitSize=0
+ByteLimit=50
+[Log file]
+LoggingEnabled=_ 0
+LogFile=_ ""
+Category=_ 0
+[TermIOLog]
+LoggingEnabled=_ 0
+LogFile=_ ""
+[Breakpoints]
+Count=0
+[Aliases]
+A0=_ "F:\项目new\BY-BMTH-双排显示\Pt100型\BY-BMTH-C3001-S1.0\LIB\src\stm8s_uart2.c" ""
+Count=1
+SuppressDialog=1

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<Workspace>
+  <ConfigDictionary>
+    
+  <CurrentConfigs><Project>BY-BMTH-C3000-S1.0/Debug</Project></CurrentConfigs></ConfigDictionary>
+  <Desktop>
+    <Static>
+      <Workspace>
+        <ColumnWidths>
+          
+          
+          
+          
+        <Column0>247</Column0><Column1>27</Column1><Column2>27</Column2><Column3>27</Column3></ColumnWidths>
+      </Workspace>
+      <Build>
+        
+        
+        
+        
+      <PreferedWindows><Position>3</Position><ScreenPosX>0</ScreenPosX><ScreenPosY>0</ScreenPosY><Windows/></PreferedWindows><ColumnWidth0>20</ColumnWidth0><ColumnWidth1>1035</ColumnWidth1><ColumnWidth2>276</ColumnWidth2><ColumnWidth3>69</ColumnWidth3></Build>
+    <TerminalIO/><Find-in-Files><PreferedWindows><Position>3</Position><ScreenPosX>0</ScreenPosX><ScreenPosY>0</ScreenPosY><Windows/></PreferedWindows><ColumnWidth0>496</ColumnWidth0><ColumnWidth1>70</ColumnWidth1><ColumnWidth2>850</ColumnWidth2></Find-in-Files><Debug-Log><PreferedWindows><Position>3</Position><ScreenPosX>0</ScreenPosX><ScreenPosY>0</ScreenPosY><Windows><Window><Factory>Build</Factory></Window></Windows></PreferedWindows><ColumnWidth0>20</ColumnWidth0><ColumnWidth1>1381</ColumnWidth1></Debug-Log></Static>
+    <Windows>
+      
+      
+    <Wnd0>
+        <Tabs>
+          <Tab>
+            <Identity>TabID-130-19109</Identity>
+            <TabName>Workspace</TabName>
+            <Factory>Workspace</Factory>
+            <Session>
+              
+            <NodeDict><ExpandedNode>BY-BMTH-C3000-S1.0</ExpandedNode><ExpandedNode>BY-BMTH-C3000-S1.0/CONTROL</ExpandedNode><ExpandedNode>BY-BMTH-C3000-S1.0/HARDWARE</ExpandedNode><ExpandedNode>BY-BMTH-C3000-S1.0/Interrupt</ExpandedNode></NodeDict></Session>
+          </Tab>
+        </Tabs>
+        
+      <SelectedTab>0</SelectedTab></Wnd0></Windows>
+    <Editor>
+      
+      
+      
+      
+    <Pane><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\Project\UserCode\main.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>971</SelStart><SelEnd>971</SelEnd></Tab><ActiveTab>0</ActiveTab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\Project\Modules\display.c</Filename><XPos>0</XPos><YPos>246</YPos><SelStart>7133</SelStart><SelEnd>7133</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\Project\Modules\key.c</Filename><XPos>0</XPos><YPos>127</YPos><SelStart>3019</SelStart><SelEnd>3019</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\Project\Modules\key.h</Filename><XPos>0</XPos><YPos>15</YPos><SelStart>519</SelStart><SelEnd>519</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\Project\Interrupt\stm8s_it.c</Filename><XPos>0</XPos><YPos>99</YPos><SelStart>3678</SelStart><SelEnd>3678</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\Project\Modules\heatCtrl.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>605</SelStart><SelEnd>605</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\Project\Modules\heatCtrl.h</Filename><XPos>0</XPos><YPos>51</YPos><SelStart>1660</SelStart><SelEnd>1660</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\Project\Modules\MotorDriver.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>452</SelStart><SelEnd>452</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\Project\Modules\MotorDriver.h</Filename><XPos>0</XPos><YPos>68</YPos><SelStart>2359</SelStart><SelEnd>2359</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\Project\Modules\BT3153.c</Filename><XPos>0</XPos><YPos>253</YPos><SelStart>6960</SelStart><SelEnd>6960</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\Project\Modules\BT3153.h</Filename><XPos>0</XPos><YPos>75</YPos><SelStart>2185</SelStart><SelEnd>2193</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\Project\Hardware\DRIVER.c</Filename><XPos>0</XPos><YPos>242</YPos><SelStart>9128</SelStart><SelEnd>9128</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\Project\UserCode\main.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>857</SelStart><SelEnd>857</SelEnd></Tab></Pane><ActivePane>0</ActivePane><Sizes><Pane><X>1000000</X><Y>1000000</Y></Pane></Sizes><SplitMode>1</SplitMode></Editor>
+    <Positions>
+      
+      
+      
+      
+      
+    <Top><Row0><Sizes><Toolbar-00f0dc90><key>iaridepm.enu1</key></Toolbar-00f0dc90></Sizes></Row0></Top><Left><Row0><Sizes><Wnd0><Rect><Top>-2</Top><Left>-2</Left><Bottom>953</Bottom><Right>321</Right><x>-2</x><y>-2</y><xscreen>267</xscreen><yscreen>242</yscreen><sizeHorzCX>139063</sizeHorzCX><sizeHorzCY>242485</sizeHorzCY><sizeVertCX>168229</sizeVertCX><sizeVertCY>956914</sizeVertCY></Rect></Wnd0></Sizes></Row0></Left><Right><Row0><Sizes/></Row0></Right><Bottom><Row0><Sizes/></Row0></Bottom><Float><Sizes/></Float></Positions>
+  </Desktop>
+</Workspace>
+
+
