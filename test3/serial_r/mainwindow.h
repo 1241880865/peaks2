@@ -2,7 +2,8 @@
 #define MAINWINDOW_H
 
 #include <QMainWindow>
-#include "spcomm.h"
+#include <QSerialPort>
+#include <QSerialPortInfo>
 #include <QFile>
 
 namespace Ui {
@@ -18,15 +19,17 @@ public:
     ~MainWindow();
 
 private slots:
-    void on_pushButton_clicked();
+    void on_comboBox_currentIndexChanged(const QString &arg1);
 
     void on_pushButton_2_clicked();
 
-    void on_pushButton_2_released();
+    void serialRead();
 
 private:
     Ui::MainWindow *ui;
-    SPComm *m_spcomm;
+    QSerialPort serial;
+
+    void initSeialPort();
 };
 
 #endif // MAINWINDOW_H
