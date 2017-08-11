@@ -206,6 +206,7 @@ debug/moc_mainwindow.cpp: D:/program1/qt562/5.6/mingw49_32/include/QtWidgets/QMa
 		D:/program1/qt562/5.6/mingw49_32/include/QtSerialPort/qserialportglobal.h \
 		D:/program1/qt562/5.6/mingw49_32/include/QtSerialPort/QSerialPortInfo \
 		D:/program1/qt562/5.6/mingw49_32/include/QtSerialPort/qserialportinfo.h \
+		D:/program1/qt562/5.6/mingw49_32/include/QtCore/QFile \
 		../serial_r/mainwindow.h
 	D:\program1\qt562\5.6\mingw49_32\bin\moc.exe $(DEFINES) -D__GNUC__ -DWIN32 -ID:/program1/qt562/5.6/mingw49_32/mkspecs/win32-g++ -IF:/git2/test1/test3/serial_r -ID:/program1/qt562/5.6/mingw49_32/include -ID:/program1/qt562/5.6/mingw49_32/include/QtWidgets -ID:/program1/qt562/5.6/mingw49_32/include/QtGui -ID:/program1/qt562/5.6/mingw49_32/include/QtANGLE -ID:/program1/qt562/5.6/mingw49_32/include/QtSerialPort -ID:/program1/qt562/5.6/mingw49_32/include/QtCore -I. ..\serial_r\mainwindow.h -o debug\moc_mainwindow.cpp
 
@@ -342,6 +343,7 @@ debug/main.o: ../serial_r/main.cpp ../serial_r/mainwindow.h \
 		D:/program1/qt562/5.6/mingw49_32/include/QtSerialPort/qserialportglobal.h \
 		D:/program1/qt562/5.6/mingw49_32/include/QtSerialPort/QSerialPortInfo \
 		D:/program1/qt562/5.6/mingw49_32/include/QtSerialPort/qserialportinfo.h \
+		D:/program1/qt562/5.6/mingw49_32/include/QtCore/QFile \
 		D:/program1/qt562/5.6/mingw49_32/include/QtWidgets/QApplication \
 		D:/program1/qt562/5.6/mingw49_32/include/QtWidgets/qapplication.h \
 		D:/program1/qt562/5.6/mingw49_32/include/QtCore/qcoreapplication.h \
@@ -464,7 +466,63 @@ debug/mainwindow.o: ../serial_r/mainwindow.cpp ../serial_r/mainwindow.h \
 		D:/program1/qt562/5.6/mingw49_32/include/QtSerialPort/qserialportglobal.h \
 		D:/program1/qt562/5.6/mingw49_32/include/QtSerialPort/QSerialPortInfo \
 		D:/program1/qt562/5.6/mingw49_32/include/QtSerialPort/qserialportinfo.h \
-		ui_mainwindow.h
+		D:/program1/qt562/5.6/mingw49_32/include/QtCore/QFile \
+		ui_mainwindow.h \
+		D:/program1/qt562/5.6/mingw49_32/include/QtCore/QVariant \
+		D:/program1/qt562/5.6/mingw49_32/include/QtWidgets/QAction \
+		D:/program1/qt562/5.6/mingw49_32/include/QtWidgets/qaction.h \
+		D:/program1/qt562/5.6/mingw49_32/include/QtWidgets/qactiongroup.h \
+		D:/program1/qt562/5.6/mingw49_32/include/QtWidgets/QApplication \
+		D:/program1/qt562/5.6/mingw49_32/include/QtWidgets/qapplication.h \
+		D:/program1/qt562/5.6/mingw49_32/include/QtCore/qcoreapplication.h \
+		D:/program1/qt562/5.6/mingw49_32/include/QtCore/qeventloop.h \
+		D:/program1/qt562/5.6/mingw49_32/include/QtWidgets/qdesktopwidget.h \
+		D:/program1/qt562/5.6/mingw49_32/include/QtGui/qguiapplication.h \
+		D:/program1/qt562/5.6/mingw49_32/include/QtGui/qinputmethod.h \
+		D:/program1/qt562/5.6/mingw49_32/include/QtWidgets/QButtonGroup \
+		D:/program1/qt562/5.6/mingw49_32/include/QtWidgets/qbuttongroup.h \
+		D:/program1/qt562/5.6/mingw49_32/include/QtWidgets/QComboBox \
+		D:/program1/qt562/5.6/mingw49_32/include/QtWidgets/qcombobox.h \
+		D:/program1/qt562/5.6/mingw49_32/include/QtWidgets/qabstractitemdelegate.h \
+		D:/program1/qt562/5.6/mingw49_32/include/QtWidgets/qstyleoption.h \
+		D:/program1/qt562/5.6/mingw49_32/include/QtWidgets/qabstractspinbox.h \
+		D:/program1/qt562/5.6/mingw49_32/include/QtGui/qvalidator.h \
+		D:/program1/qt562/5.6/mingw49_32/include/QtCore/qregularexpression.h \
+		D:/program1/qt562/5.6/mingw49_32/include/QtWidgets/qslider.h \
+		D:/program1/qt562/5.6/mingw49_32/include/QtWidgets/qabstractslider.h \
+		D:/program1/qt562/5.6/mingw49_32/include/QtWidgets/qstyle.h \
+		D:/program1/qt562/5.6/mingw49_32/include/QtWidgets/qtabbar.h \
+		D:/program1/qt562/5.6/mingw49_32/include/QtWidgets/qrubberband.h \
+		D:/program1/qt562/5.6/mingw49_32/include/QtWidgets/qframe.h \
+		D:/program1/qt562/5.6/mingw49_32/include/QtCore/qabstractitemmodel.h \
+		D:/program1/qt562/5.6/mingw49_32/include/QtWidgets/QHeaderView \
+		D:/program1/qt562/5.6/mingw49_32/include/QtWidgets/qheaderview.h \
+		D:/program1/qt562/5.6/mingw49_32/include/QtWidgets/qabstractitemview.h \
+		D:/program1/qt562/5.6/mingw49_32/include/QtWidgets/qabstractscrollarea.h \
+		D:/program1/qt562/5.6/mingw49_32/include/QtCore/qitemselectionmodel.h \
+		D:/program1/qt562/5.6/mingw49_32/include/QtWidgets/QLabel \
+		D:/program1/qt562/5.6/mingw49_32/include/QtWidgets/qlabel.h \
+		D:/program1/qt562/5.6/mingw49_32/include/QtWidgets/QLineEdit \
+		D:/program1/qt562/5.6/mingw49_32/include/QtWidgets/qlineedit.h \
+		D:/program1/qt562/5.6/mingw49_32/include/QtGui/qtextcursor.h \
+		D:/program1/qt562/5.6/mingw49_32/include/QtGui/qtextformat.h \
+		D:/program1/qt562/5.6/mingw49_32/include/QtGui/qpen.h \
+		D:/program1/qt562/5.6/mingw49_32/include/QtGui/qtextoption.h \
+		D:/program1/qt562/5.6/mingw49_32/include/QtWidgets/QMenu \
+		D:/program1/qt562/5.6/mingw49_32/include/QtWidgets/qmenu.h \
+		D:/program1/qt562/5.6/mingw49_32/include/QtWidgets/QMenuBar \
+		D:/program1/qt562/5.6/mingw49_32/include/QtWidgets/qmenubar.h \
+		D:/program1/qt562/5.6/mingw49_32/include/QtWidgets/QPushButton \
+		D:/program1/qt562/5.6/mingw49_32/include/QtWidgets/qpushbutton.h \
+		D:/program1/qt562/5.6/mingw49_32/include/QtWidgets/qabstractbutton.h \
+		D:/program1/qt562/5.6/mingw49_32/include/QtWidgets/QStatusBar \
+		D:/program1/qt562/5.6/mingw49_32/include/QtWidgets/qstatusbar.h \
+		D:/program1/qt562/5.6/mingw49_32/include/QtWidgets/QTextEdit \
+		D:/program1/qt562/5.6/mingw49_32/include/QtWidgets/qtextedit.h \
+		D:/program1/qt562/5.6/mingw49_32/include/QtGui/qtextdocument.h \
+		D:/program1/qt562/5.6/mingw49_32/include/QtWidgets/QToolBar \
+		D:/program1/qt562/5.6/mingw49_32/include/QtWidgets/qtoolbar.h \
+		D:/program1/qt562/5.6/mingw49_32/include/QtWidgets/QWidget
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o debug\mainwindow.o ..\serial_r\mainwindow.cpp
 
 debug/moc_mainwindow.o: debug/moc_mainwindow.cpp 

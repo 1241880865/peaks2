@@ -1,15 +1,14 @@
 #-------------------------------------------------
 #
-# Project created by QtCreator 2017-08-10T15:36:04
+# Project created by QtCreator 2017-08-11T09:28:15
 #
 #-------------------------------------------------
 
 QT       += core gui
-QT       += serialport
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
-TARGET = serial_r
+TARGET = ts_modbus
 TEMPLATE = app
 
 
@@ -19,5 +18,3 @@ SOURCES += main.cpp\
 HEADERS  += mainwindow.h
 
 FORMS    += mainwindow.ui
-
-

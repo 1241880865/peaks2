@@ -57,16 +57,14 @@ void MainWindow::on_comboBox_currentIndexChanged(const QString &arg1)
 
 void MainWindow::serialRead()
 {
+    //first
     //ui->textEdit->append(serial.readAll());
 
+    /*
+    //second
     QByteArray temp;
     temp = serial.readAll();
 
-    /*
-    int disp;
-    QByteArray byteArrayTempInfo;
-    disp = byteArrayTempInfo.toInt(temp);
-    */
     ui->textEdit->clear();
     ui->textEdit->append(temp.toHex());
 
@@ -74,8 +72,85 @@ void MainWindow::serialRead()
     myfile.open(QIODevice::Append);
     myfile.write(temp.toHex()+"\r\n");
     myfile.close();
+    */
 
     /*
+    //third
+    char buff[20];
+    count = serial.read(buff, 20);
+    qDebug() << count;
+
+    str += buff;
+    num += count;
+    if(num == 8)
+    {
+        num = 0;
+        //ui->textEdit->clear();
+        ui->textEdit->append(str.toHex());
+        qDebug() << str.toHex();
+        str.clear();
+    }
+    else if(num > 8)
+    {
+        num = 0;
+        str.clear();
+        qDebug() << "错误";
+    }
+    */
+    QByteArray buff;
+    buff = serial.readAll();
+    //qDebug() << buff.toHex();
+
+    //复位首条错误
+    if(buff[0] != str[0])
+    {
+        str.clear();
+        str += buff;
+        num = 0;
+        num += buff.length();
+        qDebug() << str.toStdString().data();
+        qDebug() << "--- 1 ---";
+    }
+    else
+    {
+        str += buff;
+        num += buff.length();
+    }
+    buff.clear();
+    if(num == 8)//接收结束
+    {
+        num = 0;
+
+        //ui->textEdit->clear();
+        ui->textEdit->append(str.toHex());
+        qDebug() << str.toHex();
+        str.clear();
+    }
+    else if(num > 8)
+    {
+        num = 0;
+        str.clear();
+        qDebug() << "错误";
+    }
+
+    /*
+    //
+    QByteArray temp;
+    temp = serial.readAll();
+    ui->textEdit->clear();
+    ui->textEdit->append(temp.toHex());
+
+    //protocol
+    //rcvBuff[0]
+    a = temp.toHex();
+    //rcvBuff = &a;
+    qDebug() << temp;
+    //qDebug() << temp.toHex()[0];
+    //qDebug() << temp.toHex()[1];
+    */
+
+    /*
+    //fourth
     QByteArray buf;
     buf = serial.readAll();
     if(!buf.isEmpty())

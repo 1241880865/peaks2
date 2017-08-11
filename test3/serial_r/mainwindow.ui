@@ -80,6 +80,12 @@
      <height>23</height>
     </rect>
    </property>
+   <widget class="QMenu" name="menuSs">
+    <property name="title">
+     <string>ss</string>
+    </property>
+   </widget>
+   <addaction name="menuSs"/>
   </widget>
   <widget class="QToolBar" name="mainToolBar">
    <attribute name="toolBarArea">

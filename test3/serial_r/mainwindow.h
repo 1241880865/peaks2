@@ -6,6 +6,8 @@
 #include <QSerialPortInfo>
 #include <QFile>
 
+#include <qDebug>
+
 namespace Ui {
 class MainWindow;
 }
@@ -28,6 +30,10 @@ private slots:
 private:
     Ui::MainWindow *ui;
     QSerialPort serial;
+
+    int count, num;
+    char rcvBuff[20];
+    QByteArray str;
 
     void initSeialPort();
 };
