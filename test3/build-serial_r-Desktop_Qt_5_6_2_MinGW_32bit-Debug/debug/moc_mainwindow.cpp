@@ -6,7 +6,7 @@
 ** WARNING! All changes made in this file will be lost!
 *****************************************************************************/
 
-#include "../../serial_r/mainwindow.h"
+#include "../../../../../3122/qt/haowu/mainwindow.h"
 #include <QtCore/qbytearray.h>
 #include <QtCore/qmetatype.h>
 #if !defined(Q_MOC_OUTPUT_REVISION)
@@ -20,7 +20,7 @@
 QT_BEGIN_MOC_NAMESPACE
 struct qt_meta_stringdata_MainWindow_t {
     QByteArrayData data[6];
-    char stringdata0[84];
+    char stringdata0[82];
 };
 #define QT_MOC_LITERAL(idx, ofs, len) \
     Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
@@ -33,12 +33,12 @@ QT_MOC_LITERAL(0, 0, 10), // "MainWindow"
 QT_MOC_LITERAL(1, 11, 31), // "on_comboBox_currentIndexChanged"
 QT_MOC_LITERAL(2, 43, 0), // ""
 QT_MOC_LITERAL(3, 44, 4), // "arg1"
-QT_MOC_LITERAL(4, 49, 23), // "on_pushButton_2_clicked"
-QT_MOC_LITERAL(5, 73, 10) // "serialRead"
+QT_MOC_LITERAL(4, 49, 10), // "serialRead"
+QT_MOC_LITERAL(5, 60, 21) // "on_pushButton_clicked"
 
     },
     "MainWindow\0on_comboBox_currentIndexChanged\0"
-    "\0arg1\0on_pushButton_2_clicked\0serialRead"
+    "\0arg1\0serialRead\0on_pushButton_clicked"
 };
 #undef QT_MOC_LITERAL
 
@@ -75,8 +75,8 @@ void MainWindow::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, 
         Q_UNUSED(_t)
         switch (_id) {
         case 0: _t->on_comboBox_currentIndexChanged((*reinterpret_cast< const QString(*)>(_a[1]))); break;
-        case 1: _t->on_pushButton_2_clicked(); break;
-        case 2: _t->serialRead(); break;
+        case 1: _t->serialRead(); break;
+        case 2: _t->on_pushButton_clicked(); break;
         default: ;
         }
     }
